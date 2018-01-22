@@ -15,6 +15,8 @@
 		6C5746C7200EF898003C8C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5746C6200EF898003C8C6A /* main.m */; };
 		6C5746D1200EF898003C8C6A /* ZJYTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5746D0200EF898003C8C6A /* ZJYTestTests.m */; };
 		6C5746DC200EF898003C8C6A /* ZJYTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5746DB200EF898003C8C6A /* ZJYTestUITests.m */; };
+		6C9566202015B438000AB617 /* SHConfigNetworkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C95661F2015B438000AB617 /* SHConfigNetworkingView.m */; };
+		A63D3A9558A143EBD70B0993 /* libPods-ZJYTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A48910A75435B7A3090070 /* libPods-ZJYTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		6C5746D7200EF898003C8C6A /* ZJYTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJYTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5746DB200EF898003C8C6A /* ZJYTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJYTestUITests.m; sourceTree = "<group>"; };
 		6C5746DD200EF898003C8C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C95661E2015B438000AB617 /* SHConfigNetworkingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHConfigNetworkingView.h; sourceTree = "<group>"; };
+		6C95661F2015B438000AB617 /* SHConfigNetworkingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHConfigNetworkingView.m; sourceTree = "<group>"; };
+		A106122ECD041D38745DF2F4 /* Pods-ZJYTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYTest/Pods-ZJYTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A48910A75435B7A3090070 /* libPods-ZJYTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJYTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CC79B3EDA10A80C97E4B5D /* Pods-ZJYTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJYTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJYTest/Pods-ZJYTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63D3A9558A143EBD70B0993 /* libPods-ZJYTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D90F1FD2B5792ED5B46A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A48910A75435B7A3090070 /* libPods-ZJYTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C5746AB200EF898003C8C6A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,8 @@
 				6C5746CF200EF898003C8C6A /* ZJYTestTests */,
 				6C5746DA200EF898003C8C6A /* ZJYTestUITests */,
 				6C5746B5200EF898003C8C6A /* Products */,
+				FA008E666BB062163BEB6DE9 /* Pods */,
+				04D90F1FD2B5792ED5B46A3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +119,7 @@
 		6C5746B6200EF898003C8C6A /* ZJYTest */ = {
 			isa = PBXGroup;
 			children = (
+				6C95661D2015B438000AB617 /* RelayoutView */,
 				6C5746B7200EF898003C8C6A /* AppDelegate.h */,
 				6C5746B8200EF898003C8C6A /* AppDelegate.m */,
 				6C5746BA200EF898003C8C6A /* ViewController.h */,
@@ -132,6 +151,24 @@
 			path = ZJYTestUITests;
 			sourceTree = "<group>";
 		};
+		6C95661D2015B438000AB617 /* RelayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				6C95661E2015B438000AB617 /* SHConfigNetworkingView.h */,
+				6C95661F2015B438000AB617 /* SHConfigNetworkingView.m */,
+			);
+			path = RelayoutView;
+			sourceTree = "<group>";
+		};
+		FA008E666BB062163BEB6DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A106122ECD041D38745DF2F4 /* Pods-ZJYTest.debug.xcconfig */,
+				C7CC79B3EDA10A80C97E4B5D /* Pods-ZJYTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C5746E0200EF898003C8C6A /* Build configuration list for PBXNativeTarget "ZJYTest" */;
 			buildPhases = (
+				839449EC34604CEF90DF4FBC /* [CP] Check Pods Manifest.lock */,
 				6C5746B0200EF898003C8C6A /* Sources */,
 				6C5746B1200EF898003C8C6A /* Frameworks */,
 				6C5746B2200EF898003C8C6A /* Resources */,
+				CA145D4F379663D8B9AEEA6A /* [CP] Embed Pods Frameworks */,
+				2BDC873EFE2A4AB17FDE8C32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +300,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BDC873EFE2A4AB17FDE8C32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJYTest/Pods-ZJYTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839449EC34604CEF90DF4FBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJYTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA145D4F379663D8B9AEEA6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJYTest/Pods-ZJYTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C5746B0200EF898003C8C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +359,7 @@
 				6C5746BC200EF898003C8C6A /* ViewController.m in Sources */,
 				6C5746C7200EF898003C8C6A /* main.m in Sources */,
 				6C5746B9200EF898003C8C6A /* AppDelegate.m in Sources */,
+				6C9566202015B438000AB617 /* SHConfigNetworkingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +520,7 @@
 		};
 		6C5746E1200EF898003C8C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A106122ECD041D38745DF2F4 /* Pods-ZJYTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +535,7 @@
 		};
 		6C5746E2200EF898003C8C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CC79B3EDA10A80C97E4B5D /* Pods-ZJYTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
