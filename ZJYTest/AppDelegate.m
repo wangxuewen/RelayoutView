@@ -6,6 +6,7 @@
 //  Copyright © 2018年 王学文. All rights reserved.
 //
 // git reset ceshi 1
+// git reset ceshi 2
 
 #import "AppDelegate.h"
 
