@@ -7,7 +7,6 @@
 //
 // git reset ceshi 1
 // git reset ceshi 2
-// git reset ceshi 3
 
 #import "AppDelegate.h"
 
