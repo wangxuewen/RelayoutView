@@ -6,6 +6,8 @@
 //  Copyright © 2018年 王学文. All rights reserved.
 //
 // 测试git 回滚问题哈哈哈哈
+// git cherry -pick
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
