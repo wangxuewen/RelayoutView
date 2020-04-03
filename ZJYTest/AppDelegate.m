@@ -5,6 +5,7 @@
 //  Created by 王学文 on 2018/1/17.
 //  Copyright © 2018年 王学文. All rights reserved.
 //
+// git reset ceshi 1
 
 #import "AppDelegate.h"
 
