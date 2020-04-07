@@ -5,6 +5,11 @@
 //  Created by 王学文 on 2018/1/17.
 //  Copyright © 2018年 王学文. All rights reserved.
 //
+<<<<<<< HEAD
+=======
+// git reset ceshi 1
+// git reset ceshi 2
+>>>>>>> 3586624... reset ceshi 2
 
 // git reset ceshi 1
 // git reset ceshi 2
